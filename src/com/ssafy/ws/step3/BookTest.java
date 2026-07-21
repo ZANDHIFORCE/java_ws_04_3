@@ -12,7 +12,8 @@ public class BookTest {
 		book1.publisher = "jaen.kr";
 		book1.price = 15000;
 		book1.desc = "Java 기본 문법";
-		Book bock2 = new Book("35355","분석설계","소나무","jaen.kr",30000,"SW 모델링");
+		Book book2 = new Book("35355","분석설계","소나무","jaen.kr",30000,"SW 모델링");
+		System.out.println("**************도서목록**************");
 		System.out.println(book1.toString());
 		System.out.println(book2.toString());
 	}
