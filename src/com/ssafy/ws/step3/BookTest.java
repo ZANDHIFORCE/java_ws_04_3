@@ -4,7 +4,6 @@ package com.ssafy.ws.step3;
  */
 public class BookTest {
 	public static void main(String[] args) {
-		// 코드를 작성하세요.
 		Book book1 = new Book();
 		book1.isbn = "21424";
 		book1.title = "Java Pro";

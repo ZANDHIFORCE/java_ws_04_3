@@ -30,9 +30,7 @@ public class Book {
 		sb.append(price).append("\t");
 		sb.append(desc);
 
-		return st.toString();
+		return sb.toString();
 	}
-
-	//코드를 작성하세요.
 }
 
